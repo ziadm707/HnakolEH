@@ -1,6 +1,5 @@
-package com.example.hnakoleh;
+package com.example.hnakoleh.activities;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,11 +7,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.hnakoleh.R;
 import com.example.hnakoleh.model.MealsDB;
-import com.example.hnakoleh.view.HomeActivity;
 
 
 public class RandomMealsActivity extends AppCompatActivity {
+
+
     MealsDB mealsDB = new MealsDB();
 
     @Override

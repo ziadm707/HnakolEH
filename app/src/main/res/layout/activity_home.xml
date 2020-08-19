@@ -6,9 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".view.HomeActivity">
+    tools:context=".activities.HomeActivity">
 
     <FrameLayout
+        android:id="@+id/activity_home_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,18 +25,16 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
-            android:id="@+id/headerView"
+            android:id="@+id/fragment_home_layout"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:orientation="vertical">
 
-            <!-- TODO 1 Add <View>-->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 android:background="@color/colorPrimary" />
 
-            <!-- TODO 2 Add <TextView> for Title of Header -->
 
             <TextView
                 android:id="@+id/title"
